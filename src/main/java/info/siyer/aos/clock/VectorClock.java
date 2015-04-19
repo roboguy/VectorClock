@@ -190,7 +190,7 @@ public class VectorClock extends ConcurrentHashMap<String, Integer> {
 		return descVC;
 	}
 
-	public String serializeClock(VectorClock clock) {
+	public static String serializeClock(VectorClock clock) {
 		Gson gson = new Gson();
 		String json = gson.toJson(clock);
 		return json;
