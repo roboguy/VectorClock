@@ -135,7 +135,7 @@ public class VectorClockTest {
 		System.out.println();
 		
 		System.out.println(vc1.compare(temp));
-		System.out.println(vc1.serializeClock(vc1));
+		System.out.println(VectorClock.serializeClock(vc1));
 	}
 
 	private VectorClock deserializeClock(IEncapsulateClock encap) {
