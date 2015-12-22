@@ -4,7 +4,7 @@
 
 	<groupId>info.siyer.aos</groupId>
 	<artifactId>VectorClock</artifactId>
-	<version>0.0.1</version>
+	<version>0.1.1</version>
 	<packaging>jar</packaging>
 
 	<name>VectorClock</name>
@@ -30,6 +30,11 @@
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
 			<version>2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.2.4</version>
 		</dependency>
 	</dependencies>
 	<build>
